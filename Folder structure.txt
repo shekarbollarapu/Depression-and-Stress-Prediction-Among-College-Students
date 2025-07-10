@@ -1,0 +1,25 @@
+
+/students_project
+├── flask_app.py                 # Main Flask application
+├── train_model.py         # ML model training script
+├── model.pkl              # Saved trained model
+├── scaler.pkl             # Feature scaler
+├── label_encoders.pkl     # Encoders for categorical data
+├── dataset.csv            # Training dataset
+├── /templates             # HTML files
+│   ├── home.html          # Home page
+│   ├── login.html         # Login page
+│   ├── register.html      # Registration page
+│   ├── index.html         # Prediction page
+├── /static                # Static files (CSS, JS, Images,Training Visualizations)
+│   ├── style.css          # Styles for UI
+│   ├── script.js          # Image animations & interactions
+│   ├── /images            # Background and moving images
+│   │   ├── image1.jpg     # Background Image 1
+│   │   ├── image2.jpg     # Background Image 2
+│   │   ├── image3.jpg     # Background Image 3
+│   ├── /Training Visualizations  # Folder for training images
+│   │   ├── feature_distribution.png    # Feature distribution plot
+│   │   ├── correlation_heatmap.png     # Correlation heatmap
+│   │   ├── confusion_matrix.png        # Confusion matrix
+│   │   ├── classification_report.png   # Classification report

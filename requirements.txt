@@ -1,0 +1,8 @@
+# pip install 
+
+flask 
+pandas 
+numpy 
+scikit-learn 
+joblib 
+sqlite3
