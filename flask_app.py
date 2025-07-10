@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session
+from flask import Flask, render_template, request, redirect, url_for, session 
 import joblib
 import sqlite3
 import numpy as np
@@ -96,6 +96,7 @@ def logout():
     session.pop("user", None)
     return redirect(url_for("login"))
 
+# ✅ Render-compatible Flask launch
 if __name__ == "__main__":
     import os
     port = int(os.environ.get("PORT", 5000))
